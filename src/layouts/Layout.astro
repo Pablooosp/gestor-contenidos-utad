@@ -18,11 +18,9 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<Header></Header>
-	<body>
+	<body class="bg-gradient-to-b from-[#0428cf] via-[#0933ff] to-[#5490ff]">
 		<slot />
 	</body>
-	<Footer></Footer>
 </html>
 <style is:global>
 	@font-face {

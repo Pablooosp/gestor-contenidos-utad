@@ -1,12 +1,15 @@
 ---
+import Login from '../components/Login.astro';
+import Footer from '../layouts/Footer.astro';
+import Header from '../layouts/Header.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
+<Header></Header>
 <Layout title="Welcome to Astro.">
-	<div class="bg-blue-800 h-[60vh]">
-		<p>dadadadawd</p>
-	</div>
+		<Login />
 </Layout>
+<Footer></Footer>
 
 <style>
 	
